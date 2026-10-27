@@ -24,5 +24,5 @@ jobs:
       run: docker build . --file Dockerfile --tag hardlinepizza21/express-example-app:v2
       
     - name: Docker Push
-      run: docker push hardlinepizza21/express-example-app
+      run: docker push hardlinepizza21/express-example-app:v2
 
